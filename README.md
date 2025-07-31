@@ -60,8 +60,12 @@ We used **Stratified K-Fold (Fold0, Fold1)** training and **TTA-based ensemble p
 ---
 
 ## 🏆 Results
-- Top-1 Accuracy on validation/test exceeds strong CNN baselines.
-- Generalizes well to unseen EEG samples from familiar image classes.
+
+- Achieved **Top-1 Accuracy: 0.53406** on the public evaluation set.
+- Note: The true test set is held by the competition organizers, so this score reflects validation performance based on the public split.
+
+This performance exceeds standard CNN and EEGNet baselines, demonstrating the strength of subject-specific normalization, multi-scale features, and Conformer-based modeling.
+
 
 ---
 
